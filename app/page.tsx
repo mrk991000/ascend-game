@@ -219,7 +219,7 @@ export default function Home() {
         }}
       >
         <div className="mono" style={{ fontSize: 12, color: "rgba(255,248,236,0.4)" }}>
-          
+          ASCEND
         </div>
      
          
