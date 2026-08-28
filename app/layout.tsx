@@ -15,9 +15,9 @@ const mono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ascend — a one-button stacking game",
+  title: "Ascend Game",
   description:
-    "Tap to drop each block, line it up, and watch the sky brighten as your tower climbs. Free Android APK, no ads, no Play Store required.",
+    "Tap to drop each block, line it up, and watch the sky brighten as your tower climbs.",
 };
 
 export const viewport: Viewport = {
