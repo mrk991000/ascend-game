@@ -1,6 +1,6 @@
 // ─── EDIT THESE THREE LINES ───────────────────────────────────────────────
-export const GITHUB_USERNAME = "your-username";
-export const GITHUB_REPO = "ascend";
+export const GITHUB_USERNAME = "mrk991000";
+export const GITHUB_REPO = "ascend-game";
 export const APK_FILENAME = "ascend.apk";
 // ────────────────────────────────────────────────────────────────────────
 
