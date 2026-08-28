@@ -110,23 +110,17 @@ export default function Home() {
                 marginBottom: 34,
               }}
             >
-              Ascend is a one-button stacking game — line up each block perfectly to
-              keep climbing, or watch it shear off if you miss. The sky brightens
-              from dusk to daylight the higher you get. Free APK, sideload it
-              straight from GitHub.
+             
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 14 }}>
               <a href={DOWNLOAD_URL} className="btn btn-primary">
                 <Download size={18} strokeWidth={2.5} />
                 Download APK
               </a>
-              <a href={REPO_URL} className="btn btn-ghost" target="_blank" rel="noreferrer">
-                <Github size={18} strokeWidth={2.2} />
-                View on GitHub
-              </a>
+              
             </div>
             <div className="mono" style={{ fontSize: 12, color: "rgba(255,248,236,0.4)", marginTop: 16 }}>
-              {APK_FILENAME} · sideloaded install, not on the Play Store
+           
             </div>
           </div>
 
@@ -225,18 +219,10 @@ export default function Home() {
         }}
       >
         <div className="mono" style={{ fontSize: 12, color: "rgba(255,248,236,0.4)" }}>
-          Ascend — built with Next.js, deployed on Vercel.
+          
         </div>
-        <a
-          href={REPO_URL}
-          target="_blank"
-          rel="noreferrer"
-          className="mono"
-          style={{ fontSize: 12, color: "rgba(255,248,236,0.5)", display: "inline-flex", alignItems: "center", gap: 6 }}
-        >
-          <Github size={14} />
-          Source on GitHub
-        </a>
+     
+         
       </footer>
 
       <style>{`
