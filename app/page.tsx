@@ -1,6 +1,6 @@
 import { Download, Github, Zap, WifiOff, Trophy, Sunrise, ChevronRight } from "lucide-react";
 import PhoneFrame from "@/components/PhoneFrame";
-import { DOWNLOAD_URL, REPO_URL, APK_FILENAME } from "@/lib/config";
+import { DOWNLOAD_URL, REPO_URL, APK_FILENAME, TEST_URL } from "@/lib/config";
 
 const FEATURES = [
   {
@@ -117,7 +117,10 @@ export default function Home() {
                 <Download size={18} strokeWidth={2.5} />
                 Download APK
               </a>
-              
+              <a href={TEST_URL} className="btn btn-ghost" target="_blank" rel="noreferrer">
+
+               Try Now
+              </a>
             </div>
             <div className="mono" style={{ fontSize: 12, color: "rgba(255,248,236,0.4)", marginTop: 16 }}>
            
