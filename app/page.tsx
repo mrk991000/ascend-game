@@ -109,7 +109,7 @@ export default function Home() {
               </a>
               <a href={TEST_URL} className="btn btn-ghost" target="_blank" rel="noreferrer">
 
-               Try Now
+               Try Now(Web Version)
               </a>
             </div>
             <div className="mono" style={{ fontSize: 12, color: "rgba(255,248,236,0.4)", marginTop: 16 }}>
