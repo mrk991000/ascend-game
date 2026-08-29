@@ -4,16 +4,6 @@ import { DOWNLOAD_URL, REPO_URL, APK_FILENAME, TEST_URL } from "@/lib/config";
 
 const FEATURES = [
   {
-    icon: Zap,
-    title: "One button",
-    body: "Tap, click, or hit space. That's the whole control scheme — the challenge is all in the timing.",
-  },
-  {
-    icon: WifiOff,
-    title: "Fully offline",
-    body: "No login, no ads, no network calls once it's installed. It's just a game.",
-  },
-  {
     icon: Trophy,
     title: "Chase your best",
     body: "Your top score is saved on your device and stares back at you every time you fall short of it.",
@@ -29,7 +19,7 @@ const STEPS = [
   {
     n: "01",
     title: "Download the APK",
-    body: "Hit the download button above. Your browser will save the file — Android may warn you it's from outside the Play Store, that's expected for a direct APK.",
+    body: "Hit the download button. Your browser will save the file — Android may warn you it's from outside the Play Store, that's expected for a direct APK.",
   },
   {
     n: "02",
@@ -39,7 +29,7 @@ const STEPS = [
   {
     n: "03",
     title: "Open and install",
-    body: "Tap the downloaded file, confirm the install, and you're done. Ascend runs fully offline from here.",
+    body: "Tap the downloaded file, confirm the install, and you're done.",
   },
 ];
 
@@ -90,7 +80,7 @@ export default function Home() {
         >
           <div>
             <div className="eyebrow" style={{ color: "#ffc145", marginBottom: 18 }}>
-              Free · Android · No ads
+              Free · Android · No ADs
             </div>
             <h1
               className="display"
@@ -135,10 +125,10 @@ export default function Home() {
       <section style={{ padding: "clamp(60px, 8vw, 110px) clamp(20px, 5vw, 56px)" }}>
         <div style={{ maxWidth: 1140, margin: "0 auto" }}>
           <div className="eyebrow" style={{ color: "#2ec4b6", marginBottom: 14 }}>
-            Why it's worth the sideload
+           
           </div>
           <h2 className="display" style={{ fontSize: "clamp(30px, 4vw, 44px)", marginBottom: 44 }}>
-            Small game, no nonsense.
+            
           </h2>
           <div
             style={{
