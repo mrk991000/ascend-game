@@ -116,7 +116,13 @@ export default function Home() {
            
             </div>
           </div>
-
+<div style={{ display: "flex", justifyContent: "center" }}>
+            <img
+              src="/icon.png"
+              alt="Ascend Icon"
+              style={{ width: "100%", maxWidth: 420, borderRadius: 24 }}
+            />
+          </div>
           
         </div>
       </section>
