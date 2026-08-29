@@ -115,7 +115,7 @@ export default function Home() {
             <div style={{ display: "flex", flexWrap: "wrap", gap: 14 }}>
               <a href={DOWNLOAD_URL} className="btn btn-primary">
                 <Download size={18} strokeWidth={2.5} />
-                Download APK
+                Download(Android)
               </a>
               <a href={TEST_URL} className="btn btn-ghost" target="_blank" rel="noreferrer">
 
